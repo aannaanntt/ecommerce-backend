@@ -1,13 +1,13 @@
-package com.anant.ecommerce.boot;
+package com.anant.spring.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EcommerceBackendApplication {
+public class EmployeerestApplication {
 
 	public static void main(String[] args) {
-		 SpringApplication.run(EcommerceBackendApplication.class, args);
+		SpringApplication.run(EmployeerestApplication.class, args);
 	}
 
 }
